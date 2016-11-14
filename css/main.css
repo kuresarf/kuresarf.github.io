@@ -53,6 +53,10 @@ body {
     border: 1px solid #cccccc;
 }
 
+.row.extra-bottom-padding{
+   margin-bottom: 20px;
+}
+
 /* Half Page Height Carousel Customization */
 .carousel {
     height: 50%;
