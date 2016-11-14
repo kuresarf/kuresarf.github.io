@@ -15,11 +15,10 @@ var app = angular.module('tutorialWebApp', [
  */
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
-    // Home
-    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    // Home - Front Panel
+    .when("/", {templateUrl: "partials/frontpanel.html", controller: "PageCtrl"})
     // Pages
     .when("/backpanel", {templateUrl: "partials/backpanel.html", controller: "PageCtrl"})
-    .when("/frontpanel", {templateUrl: "partials/frontpanel.html", controller: "PageCtrl"})
     // Other Panels
     .when("/otherpanels", {templateUrl: "partials/otherpanels.html", controller: "OtherPanelCtrl"})
     .when("/blog/post", {templateUrl: "partials/blog_item.html", controller: "OtherPanelCtrl"})
