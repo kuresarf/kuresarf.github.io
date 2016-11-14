@@ -27,6 +27,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
 
+
 /**
  * Controls the Blog
  */
